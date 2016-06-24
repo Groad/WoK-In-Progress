@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{8F8A9F8F-A652-C752-1A9C-90D97CD36F02}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\FileBrowser\Demo1\example.cs" />
+     <Compile Include="Assets\FileBrowser\Demo2\example2.cs" />
+     <Compile Include="Assets\FileBrowser\Scripts\FileBrowser.cs" />
+     <Compile Include="Assets\FileBrowser\Scripts\FileIcon.cs" />
+     <Compile Include="Assets\FileBrowser\Scripts\FileInfo.cs" />
+     <Compile Include="Assets\FileBrowser\Scripts\FileSelectMode.cs" />
+     <Compile Include="Assets\ImageVideoContactPicker\Example\Example.cs" />
+     <Compile Include="Assets\OnScreenKeyboard\v2.x\Demos\DemoAssets\DemoController.cs" />
+     <Compile Include="Assets\OnScreenKeyboard\v2.x\HeathenEngineering\KeyClass.cs" />
+     <Compile Include="Assets\OnScreenKeyboard\v2.x\HeathenEngineering\OnScreenKeyboard Delegate.cs" />
+     <Compile Include="Assets\OnScreenKeyboard\v2.x\HeathenEngineering\OnScreenKeyboard.cs" />
+     <Compile Include="Assets\OnScreenKeyboard\v2.x\HeathenEngineering\OnScreenKeyboardKey.cs" />
+     <Compile Include="Assets\Scripts\ButtonManager.cs" />
+     <Compile Include="Assets\Scripts\Buttons\ColorPickerButton.cs" />
+     <Compile Include="Assets\Scripts\Buttons\NewStickyButton.cs" />
+     <Compile Include="Assets\Scripts\CameraFixer.cs" />
+     <Compile Include="Assets\Scripts\Canvass.cs" />
+     <Compile Include="Assets\Scripts\Chain.cs" />
+     <Compile Include="Assets\Scripts\CircleMenuButton.cs" />
+     <Compile Include="Assets\Scripts\CirclePopup.cs" />
+     <Compile Include="Assets\Scripts\ClipboardScene.cs" />
+     <Compile Include="Assets\Scripts\ColorPalette.cs" />
+     <Compile Include="Assets\Scripts\ColorPaletteButton.cs" />
+     <Compile Include="Assets\Scripts\ColorPicker\CameraBgColor.cs" />
+     <Compile Include="Assets\Scripts\ColorPicker\ColorPicker.cs" />
+     <Compile Include="Assets\Scripts\ColorPicker\DemoGUI_ColorPickerDemo.cs" />
+     <Compile Include="Assets\Scripts\ColorPicker\DrawGUIOrderColorPicker.cs" />
+     <Compile Include="Assets\Scripts\ColorPicker\ObjectColor.cs" />
+     <Compile Include="Assets\Scripts\ColorPicker\PSColor.cs" />
+     <Compile Include="Assets\Scripts\ColorPickerDiscreet.cs" />
+     <Compile Include="Assets\Scripts\ConnectedClient.cs" />
+     <Compile Include="Assets\Scripts\ConnectionManager.cs" />
+     <Compile Include="Assets\Scripts\ConnectionStatus.cs" />
+     <Compile Include="Assets\Scripts\CopyPasteManager.cs" />
+     <Compile Include="Assets\Scripts\DeleteButton.cs" />
+     <Compile Include="Assets\Scripts\DesktopDownloader.cs" />
+     <Compile Include="Assets\Scripts\DesktopServerSide.cs" />
+     <Compile Include="Assets\Scripts\DontDestr.cs" />
+     <Compile Include="Assets\Scripts\Downloader.cs" />
+     <Compile Include="Assets\Scripts\Draggable.cs" />
+     <Compile Include="Assets\Scripts\DrawLine.cs" />
+     <Compile Include="Assets\Scripts\DropDownMenu.cs" />
+     <Compile Include="Assets\Scripts\DuplicateToPaletteButton.cs" />
+     <Compile Include="Assets\Scripts\Easing.cs" />
+     <Compile Include="Assets\Scripts\EditorButton.cs" />
+     <Compile Include="Assets\Scripts\EraseButton.cs" />
+     <Compile Include="Assets\Scripts\FileSender.cs" />
+     <Compile Include="Assets\Scripts\FindBox.cs" />
+     <Compile Include="Assets\Scripts\FingerPaintButton.cs" />
+     <Compile Include="Assets\Scripts\FollowMouse.cs" />
+     <Compile Include="Assets\Scripts\Geometry.cs" />
+     <Compile Include="Assets\Scripts\GridSnapper.cs" />
+     <Compile Include="Assets\Scripts\HighlightSticky.cs" />
+     <Compile Include="Assets\Scripts\Hotkey.cs" />
+     <Compile Include="Assets\Scripts\ImageImportSettings.cs" />
+     <Compile Include="Assets\Scripts\ImageSentStatus.cs" />
+     <Compile Include="Assets\Scripts\LineScript.cs" />
+     <Compile Include="Assets\Scripts\LoadedImageListening.cs" />
+     <Compile Include="Assets\Scripts\LoadedTxtListening.cs" />
+     <Compile Include="Assets\Scripts\MainPanelWideCamera.cs" />
+     <Compile Include="Assets\Scripts\MainStickyReceiver.cs" />
+     <Compile Include="Assets\Scripts\PanelCamera.cs" />
+     <Compile Include="Assets\Scripts\Popups\HandlePopup.cs" />
+     <Compile Include="Assets\Scripts\Popups\LinePopup.cs" />
+     <Compile Include="Assets\Scripts\Popups\Popup.cs" />
+     <Compile Include="Assets\Scripts\Popups\StickyPopup.cs" />
+     <Compile Include="Assets\Scripts\PutPhotoButton.cs" />
+     <Compile Include="Assets\Scripts\SaveLoadManager.cs" />
+     <Compile Include="Assets\Scripts\SaveLoadMenuButton.cs" />
+     <Compile Include="Assets\Scripts\SceneManager.cs" />
+     <Compile Include="Assets\Scripts\ScreenshotCam.cs" />
+     <Compile Include="Assets\Scripts\SendToPaletteButton.cs" />
+     <Compile Include="Assets\Scripts\ServerConnection.cs" />
+     <Compile Include="Assets\Scripts\ServerFirstSetup.cs" />
+     <Compile Include="Assets\Scripts\ServerStatus.cs" />
+     <Compile Include="Assets\Scripts\ServerStatusTablet.cs" />
+     <Compile Include="Assets\Scripts\ShapeButton.cs" />
+     <Compile Include="Assets\Scripts\SlideOnOffButton.cs" />
+     <Compile Include="Assets\Scripts\SpriteButton.cs" />
+     <Compile Include="Assets\Scripts\StickyFingerPaint.cs" />
+     <Compile Include="Assets\Scripts\StickyInPanel.cs" />
+     <Compile Include="Assets\Scripts\StickyPalette.cs" />
+     <Compile Include="Assets\Scripts\StickyScaler.cs" />
+     <Compile Include="Assets\Scripts\StickyScript.cs" />
+     <Compile Include="Assets\Scripts\StickySender.cs" />
+     <Compile Include="Assets\Scripts\TabletFileSending.cs" />
+     <Compile Include="Assets\Scripts\TabletKeyboardController.cs" />
+     <Compile Include="Assets\Scripts\TabletServerSide.cs" />
+     <Compile Include="Assets\Scripts\TestScene.cs" />
+     <Compile Include="Assets\Scripts\TextLine.cs" />
+     <Compile Include="Assets\Scripts\TextSizeButton.cs" />
+     <Compile Include="Assets\Scripts\TextureScale.cs" />
+     <Compile Include="Assets\Scripts\Toolbar.cs" />
+     <Compile Include="Assets\Scripts\ToolbarButton.cs" />
+     <Compile Include="Assets\Scripts\ToolbarEditMenu.cs" />
+     <Compile Include="Assets\Scripts\UDPManager.cs" />
+     <Compile Include="Assets\Scripts\ViewControl.cs" />
+     <Compile Include="Assets\Scripts\ftlGatherer.cs" />
+     <Compile Include="Assets\TNet\Client\BinaryExtensions.cs" />
+     <Compile Include="Assets\TNet\Client\DataNode.cs" />
+     <Compile Include="Assets\TNet\Client\TNAutoCreate.cs" />
+     <Compile Include="Assets\TNet\Client\TNAutoJoin.cs" />
+     <Compile Include="Assets\TNet\Client\TNAutoJoinError.cs" />
+     <Compile Include="Assets\TNet\Client\TNAutoSync.cs" />
+     <Compile Include="Assets\TNet\Client\TNBehaviour.cs" />
+     <Compile Include="Assets\TNet\Client\TNGameClient.cs" />
+     <Compile Include="Assets\TNet\Client\TNLobbyClient.cs" />
+     <Compile Include="Assets\TNet\Client\TNManager.cs" />
+     <Compile Include="Assets\TNet\Client\TNObject.cs" />
+     <Compile Include="Assets\TNet\Client\TNRFC.cs" />
+     <Compile Include="Assets\TNet\Client\TNSerializer.cs" />
+     <Compile Include="Assets\TNet\Client\TNServerInstance.cs" />
+     <Compile Include="Assets\TNet\Client\TNSyncRigidbody.cs" />
+     <Compile Include="Assets\TNet\Client\TNTarget.cs" />
+     <Compile Include="Assets\TNet\Client\TNTcpLobbyClient.cs" />
+     <Compile Include="Assets\TNet\Client\TNUdpLobbyClient.cs" />
+     <Compile Include="Assets\TNet\Client\TNUnityTools.cs" />
+     <Compile Include="Assets\TNet\Common\TNBuffer.cs" />
+     <Compile Include="Assets\TNet\Common\TNDatagram.cs" />
+     <Compile Include="Assets\TNet\Common\TNList.cs" />
+     <Compile Include="Assets\TNet\Common\TNPacket.cs" />
+     <Compile Include="Assets\TNet\Common\TNPlayer.cs" />
+     <Compile Include="Assets\TNet\Common\TNServerList.cs" />
+     <Compile Include="Assets\TNet\Common\TNTcpProtocol.cs" />
+     <Compile Include="Assets\TNet\Common\TNTools.cs" />
+     <Compile Include="Assets\TNet\Common\TNUPnP.cs" />
+     <Compile Include="Assets\TNet\Common\TNUdpProtocol.cs" />
+     <Compile Include="Assets\TNet\Server\TNChannel.cs" />
+     <Compile Include="Assets\TNet\Server\TNFileServer.cs" />
+     <Compile Include="Assets\TNet\Server\TNGameServer.cs" />
+     <Compile Include="Assets\TNet\Server\TNLobbyLink.cs" />
+     <Compile Include="Assets\TNet\Server\TNLobbyServer.cs" />
+     <Compile Include="Assets\TNet\Server\TNTcpLobbyLink.cs" />
+     <Compile Include="Assets\TNet\Server\TNTcpLobbyServer.cs" />
+     <Compile Include="Assets\TNet\Server\TNTcpPlayer.cs" />
+     <Compile Include="Assets\TNet\Server\TNUdpLobbyLink.cs" />
+     <Compile Include="Assets\TNet\Server\TNUdpLobbyServer.cs" />
+     <None Include="Assets\Vectrosity 5\Vectrosity 5 Documentation\Vectrosity5 Upgrade Guide.txt" />
+     <None Include="Assets\OnScreenKeyboard\ReadMe.txt" />
+     <None Include="Assets\Vectrosity 5\Vectrosity 5 Documentation\Vectrosity changelog.txt" />
+     <None Include="Assets\Scripts\ColorPicker\license.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="ImageVideoContactPicker">
+ <HintPath>C:/Users/FTL Labs/Documents/UnityProjects/wok-master(currentish/wok-master(warrow/wok-master(warrow/wok-master/Assets/Plugins/ImageVideoContactPicker.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows.Forms">
+ <HintPath>C:/Users/FTL Labs/Documents/UnityProjects/wok-master(currentish/wok-master(warrow/wok-master(warrow/wok-master/Assets/Plugins/System.Windows.Forms.dll</HintPath>
+ </Reference>
+ <Reference Include="Vectrosity">
+ <HintPath>C:/Users/FTL Labs/Documents/UnityProjects/wok-master(currentish/wok-master(warrow/wok-master(warrow/wok-master/Assets/Plugins/Vectrosity/Vectrosity.dll</HintPath>
+ </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>C:/Users/FTL Labs/Documents/UnityProjects/wok-master(currentish/wok-master(warrow/wok-master(warrow/wok-master/Assets/TouchScript/OSCsharp.dll</HintPath>
+ </Reference>
+ <Reference Include="TouchScript">
+ <HintPath>C:/Users/FTL Labs/Documents/UnityProjects/wok-master(currentish/wok-master(warrow/wok-master(warrow/wok-master/Assets/TouchScript/TouchScript.dll</HintPath>
+ </Reference>
+ <Reference Include="TouchScript.TUIO">
+ <HintPath>C:/Users/FTL Labs/Documents/UnityProjects/wok-master(currentish/wok-master(warrow/wok-master(warrow/wok-master/Assets/TouchScript/TouchScript.TUIO.dll</HintPath>
+ </Reference>
+ <Reference Include="TouchScript.Windows">
+ <HintPath>C:/Users/FTL Labs/Documents/UnityProjects/wok-master(currentish/wok-master(warrow/wok-master(warrow/wok-master/Assets/TouchScript/TouchScript.Windows.dll</HintPath>
+ </Reference>
+ <Reference Include="TUIOsharp">
+ <HintPath>C:/Users/FTL Labs/Documents/UnityProjects/wok-master(currentish/wok-master(warrow/wok-master(warrow/wok-master/Assets/TouchScript/TUIOsharp.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{CE6DBE90-51A8-E909-23B8-2D338CFE9303}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

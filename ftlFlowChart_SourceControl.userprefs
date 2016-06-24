@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\ftlFlowChart\Assets\Scripts\Popups\LinePopup.cs">
+    <Files>
+      <File FileName="..\ftlFlowChart\Assets\Scripts\ftlGatherer.cs" Line="168" Column="1" />
+      <File FileName="..\ftlFlowChart\Assets\Scripts\Popups\LinePopup.cs" Line="127" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 249c1b5c45b5c69408f464a92fc90fc9
+timeCreated: 1466628686
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - handle: {instanceID: 0}
+  - linePrefab: {instanceID: 0}
+  - linePopup: {instanceID: 0}
+  - colorPicker: {instanceID: 0}
+  - stickySender: {instanceID: 0}
+  - circlePopupLine: {instanceID: 0}
+  - circlePopupHandle: {instanceID: 0}
+  - circlePopupSticky: {instanceID: 0}
+  - lineTexture: {fileID: 2800000, guid: ebeab3e3ee6a3214b8ef67b737b3ac5f, type: 3}
+  - Endpoint0: {instanceID: 0}
+  - Endpoint1: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

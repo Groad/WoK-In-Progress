@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Unity5\ftlPhysics\ftlPhysics_v1.51\ftlPhysics_1.51\Assets\scripts\ftl\Buttons\Buttons\SelectButton.cs">
+    <Files>
+      <File FileName="..\..\Resources\XNA GUI\DGuiTest\GuiTest.cs" Line="19" Column="25" />
+      <File FileName="..\..\..\Unity5\ftlPhysics\ftlPhysics_v1.51\ftlPhysics_1.51\Assets\scripts\ftl\Buttons\Buttons\SelectButton.cs" Line="28" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

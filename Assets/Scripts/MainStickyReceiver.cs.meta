@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 3bb1a8dfaa69fd6419a4c8c4b5294f29
+timeCreated: 1436799130
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - sticky: {fileID: 125948, guid: 10245ad7e44bbc64c952e3f055b51c94, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
