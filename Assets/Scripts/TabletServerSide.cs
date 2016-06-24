@@ -108,13 +108,12 @@ public class TabletServerSide : MonoBehaviour {
         //        NewStickyButton.thisSticky.name = touchScreenKeyboard.text;
         //    }
         //}
-
-        if (connectButton.pressed)
+        checkServerList();
+        if (isEmptyServerList) return;
+        if (!isConnectedToServer)
         {
             ConnectToServer();
         }
-        checkServerList();
-        if (isEmptyServerList) return;
     }
 
     private void checkServerList()
